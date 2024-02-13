@@ -30,12 +30,12 @@ img_lottie_animation = Image.open(r"C:\Users\atul\Downloads\5530180.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Sven :wave:")
-    st.title("A Data Analyst From Germany")
+    st.subheader("Hi, I am Atul Jha :wave:")
+    st.title("A Student pursuing the Btech degree.")
     st.write(
         "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
     )
-    st.write("[Learn More >](https://pythonandvba.com)")
+    st.write("[Twitter >](https://twitter.com/atuljha4747)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -55,7 +55,7 @@ with st.container():
             If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
             """
         )
-        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+        st.write("[E-mail: >](atuljha4747@gmail.com)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
